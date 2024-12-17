@@ -9,5 +9,5 @@
 共通しているIPアドレス以外のIPアドレスと通信しているVM名を出力するPythonスクリプト  
 ```output-vm-with-uncommon-ip.py```  
 
-使用されていないと判断されたVM名を出力するPythonスクリプト
+使用されていないと判断されたVM名を出力するPythonスクリプト  
 ```output-inactive-vm-prediction.py ```  
