@@ -1,0 +1,12 @@
+[Unit]
+Description=c0a22100-get-last-tcpdump
+
+[Service]
+Type=oneshot
+ExecStart=/c0a22100-get-last-tcpdump/c0a22100-get-last-tcpdump.sh
+ExecStartPost=/bin/systemctl stop c0a22100-get-last-tcpdump.timer
+ExecStartPost=/bin/systemctl disable c0a22100-get-last-tcpdump.timer
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
