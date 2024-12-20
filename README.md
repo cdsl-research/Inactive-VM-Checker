@@ -51,36 +51,12 @@ listening on ens34, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 ![image](https://github.com/user-attachments/assets/7662ed12-9cb1-4bde-892f-aa4190b77910)
 
 ## 実行結果  
-```output-vm-with-uncommon-ip.py ```実行時に出力される，
-各VMの```{VMのホスト名}}-VM-TCPDUMP```ファイルに共通して記録されているIPアドレス以外との通信が存在するVMのホスト名を記録する```diff-ip-vm```ファイルの内容
-```
-c0a21021-ex
-c0a21021-ex2
-c0a21030-exstorage
-c0a21030-exstorageclient
-c0a21030-implement
-c0a21030-outside-site-test-nfs
-c0a21069-db
-c0a21069-os
-c0a21069-vm-info
-c0a21099-dojo-mj
-c0a21099-dojo-vm
-c0a21099-dojo-wl
-c0a21099-dojo-wr
-```
+```output-vm-with-uncommon-ip.py ```実行時に出力される  
+各VMの```{VMのホスト名}-VM-TCPDUMP```ファイルに共通して記録されているIPアドレス以外との通信が存在するVMのホスト名を記録する```diff-ip-vm```ファイルの内容  
+  
+![image](https://github.com/user-attachments/assets/2fcc1fe6-5e10-43fe-871a-b88644283736)
 
-```output-inactive-vm-prediction.py```実行時に出力される，
-使用されていないと判断するVMのホスト名のリストが記録される```inactive-vm-prediction```ファイルの内容
-```
-c0a21021-ex
-c0a21021-ex2
-c0a21030-exstorage
-c0a21030-exstorageclient
-c0a21030-implement
-c0a21030-outside-site-test-nfs
-c0a21069-db
-c0a21069-os
-c0a21069-vm-info
-c0a21099-dojo-mj
-c0a21099-dojo-vm
-```
+
+```output-inactive-vm-prediction.py```実行時に出力される使用されていないと判断するVMのホスト名のリストが記録される```inactive-vm-prediction```ファイルの内容  
+  
+![image](https://github.com/user-attachments/assets/5e128dc9-d209-4395-a986-8f00f4ae91fc)
